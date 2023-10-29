@@ -34,15 +34,19 @@ Gnomos                         | 110 + nivel * 9        | 70 + nivel * 7   | 90 
 
 Tipo                           | Salud                  | Mana             | Estamina         | Nivel    
 -------------------------------|------------------------|------------------|------------------|----------
+Enemigos de nivel 1 al 10
 Monstruos de las Sombras       | 50 + nivel * 5         | 20 + nivel * 2   | 30 + nivel * 3   | Dinámico 
 Demonios Menores               | 60 + nivel * 6         | 25 + nivel * 2   | 25 + nivel * 2   | Dinámico 
 Metamorfo Inestable            | 40 + nivel * 4         | 30 + nivel * 3   | 35 + nivel * 3   | Dinámico 
+Enemigos de nivel 10 al 20
 Criaturas Nocturnas Avanzadas  | 120 + nivel * 10       | 40 + nivel * 4   | 50 + nivel * 5   | Dinámico 
 Demonios de las Llamas         | 150 + nivel * 10       | 50 + nivel * 5   | 40 + nivel * 4   | Dinámico 
 Metamorfos Cambiantes          | 100 + nivel * 8        | 60 + nivel * 6   | 55 + nivel * 5   | Dinámico 
+Enemigos de nivel 20 al 30
 Bestias de la Oscuridad        | 200 + nivel * 10       | 70 + nivel * 7   | 60 + nivel * 6   | Dinámico 
 Señores Demoníacos             | 250 + nivel * 10       | 80 + nivel * 8   | 70 + nivel * 7   | Dinámico 
 Metamorfos Maestros            | 180 + nivel * 9        | 90 + nivel * 9   | 80 + nivel * 8   | Dinámico 
+Enemigos de nivel 30 al 40
 Pesadillas Vivientes           | 300 + nivel * 10       | 100 + nivel * 10 | 90 + nivel * 9   | Dinámico 
 Archidemonios                  | 350 + nivel * 10       | 120 + nivel * 12 | 100 + nivel * 10 | Dinámico 
 Metamorfos Épicos              | 280 + nivel * 10       | 130 + nivel * 13 | 110 + nivel * 11 | Dinámico 
