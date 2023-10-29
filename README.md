@@ -20,6 +20,34 @@ Establecimos una mecánica básica de combate donde el jugador puede atacar a en
   
 Cada raza influye directamente en las estadísticas del jugador, creando una experiencia de juego personalizada. Las decisiones del jugador al elegir su raza afectan su capacidad para enfrentarse a enemigos y superar desafíos.
 
+<h2>Tabla de tipos de personajes y enemigos, con sus caracteristicas</h2>
+
+
+Tipo                           | Salud                  | Mana             | Estamina         | Nivel    
+-----------------------------   |------------------------|------------------|------------------|----------
+Humanos                        | 100 + nivel * 10       | 50 + nivel * 5   | 50 + nivel * 5   | Dinámico 
+Elfos                          | 100 + nivel * 7        | 80 + nivel * 10  | 60 + nivel * 5   | Dinámico 
+Enanos                         | 120 + nivel * 12       | 30 + nivel * 3   | 70 + nivel * 7   | Dinámico 
+Orcos                          | 90 + nivel * 8         | 40 + nivel * 4   | 80 + nivel * 8   | Dinámico 
+Hadas                          | 80 + nivel * 6         | 120 + nivel * 15 | 50 + nivel * 5   | Dinámico 
+Gnomos                         | 110 + nivel * 9        | 70 + nivel * 7   | 90 + nivel * 9   | Dinámico 
+
+Tipo                           | Salud                  | Mana             | Estamina         | Nivel    
+-------------------------------|------------------------|------------------|------------------|----------
+Monstruos de las Sombras       | 50 + nivel * 5         | 20 + nivel * 2   | 30 + nivel * 3   | Dinámico 
+Demonios Menores               | 60 + nivel * 6         | 25 + nivel * 2   | 25 + nivel * 2   | Dinámico 
+Metamorfo Inestable            | 40 + nivel * 4         | 30 + nivel * 3   | 35 + nivel * 3   | Dinámico 
+Criaturas Nocturnas Avanzadas  | 120 + nivel * 10       | 40 + nivel * 4   | 50 + nivel * 5   | Dinámico 
+Demonios de las Llamas         | 150 + nivel * 10       | 50 + nivel * 5   | 40 + nivel * 4   | Dinámico 
+Metamorfos Cambiantes          | 100 + nivel * 8        | 60 + nivel * 6   | 55 + nivel * 5   | Dinámico 
+Bestias de la Oscuridad        | 200 + nivel * 10       | 70 + nivel * 7   | 60 + nivel * 6   | Dinámico 
+Señores Demoníacos             | 250 + nivel * 10       | 80 + nivel * 8   | 70 + nivel * 7   | Dinámico 
+Metamorfos Maestros            | 180 + nivel * 9        | 90 + nivel * 9   | 80 + nivel * 8   | Dinámico 
+Pesadillas Vivientes           | 300 + nivel * 10       | 100 + nivel * 10 | 90 + nivel * 9   | Dinámico 
+Archidemonios                  | 350 + nivel * 10       | 120 + nivel * 12 | 100 + nivel * 10 | Dinámico 
+Metamorfos Épicos              | 280 + nivel * 10       | 130 + nivel * 13 | 110 + nivel * 11 | Dinámico 
+
+
 <h1>Futuro Desarrollo</h1>
 <h2>Mejoras en el Combate</h2>
   
