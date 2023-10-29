@@ -1,7 +1,8 @@
-Introducción
-El juego que estamos desarrollando hasta ahora es un emocionante arcade que combina la elección de razas con enfrentamientos contra enemigos aleatorios. Hasta el momento, hemos establecido la base del juego, permitiendo a los jugadores seleccionar entre seis razas únicas, cada una con sus propias características distintivas. Además, hemos implementado la capacidad del jugador para enfrentarse a enemigos cuyo nivel y estadísticas se generan aleatoriamente.
+<h1>Introducción<h1>
+El juego que estamos desarrollando hasta ahora es un  arcade que combina la elección de razas con enfrentamientos contra enemigos aleatorios. Hasta el momento, hemos establecido la base del juego, permitiendo a los jugadores seleccionar entre seis razas únicas, cada una con sus propias características distintivas. Además, hemos implementado la capacidad del jugador para enfrentarse a enemigos cuyo nivel y estadísticas se generan aleatoriamente.
 
 Desarrollo Actual
+
 Clases Principales
 Hemos creado las clases fundamentales del juego: Personaje y Raza. La clase Personaje maneja aspectos como vida, mana y estamina, y permite a los jugadores atacar y recibir ataques. Por otro lado, la clase Raza define las características específicas de cada raza, incluyendo bonificaciones para la vida, mana y estamina.
 
