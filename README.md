@@ -4,6 +4,9 @@ El juego que estamos desarrollando hasta ahora es un  arcade que combina la elec
 
 <h1>Desarrollo Actual</h1>
 
+![PracticaProgramacion](https://github.com/brihuaa/PracticaJava/assets/123450151/51cabb9f-cd51-42ca-8b9f-54b369219ae4)
+
+
 <h2>Clases Principales</h2>
 
 Hemos creado las clases fundamentales del juego: Personaje y Raza. La clase Personaje maneja aspectos como vida, mana y estamina, y permite a los jugadores atacar y recibir ataques. Por otro lado, la clase Raza define las características específicas de cada raza, incluyendo bonificaciones para la vida, mana y estamina.
