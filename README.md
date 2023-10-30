@@ -72,6 +72,6 @@ Agregar opciones de diálogo, toma de decisiones y eventos basados en elecciones
 
 
 <h1>Conclusión</h1>
-Hasta ahora, hemos establecido los cimientos de un juego arcade emocionante y diverso. Sin embargo, hay un vasto potencial para expandir y mejorar la experiencia del jugador. Al centrarnos en mejorar la mecánica de combate, introducir recompensas atractivas, desarrollar la narrativa y aumentar la interactividad del jugador, podemos llevar nuestro juego a nuevas alturas.
+Hasta ahora, hemos establecido los cimientos de un juego arcade. Sin embargo, hay un vasto potencial para expandir y mejorar la experiencia del jugador. Al centrarnos en mejorar la mecánica de combate, introducir recompensas atractivas, desarrollar la narrativa y aumentar la interactividad del jugador, podemos llevar nuestro juego a nuevas alturas.
 
-El desarrollo futuro debe ser guiado por una combinación de la visión del juego y el feedback de los jugadores. Con una planificación cuidadosa y la implementación de nuevas características.
+El desarrollo futuro debe ser guiado por una combinación de la visión del juego y el feedback de los jugadores/compañeros. Con una planificación cuidadosa y la implementación de nuevas características.
