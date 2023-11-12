@@ -68,4 +68,7 @@ La inclusión de opciones de diálogo, toma de decisiones y eventos basados en e
 
 # Conclusión
 
-Hasta ahora, hemos sentado las bases de un emocionante juego arcade. Sin embargo, el potencial de expans
+Hasta ahora, hemos sentado las bases de un emocionante juego arcade. Sin embargo, el potencial de expansión y mejora es vasto. Al enfocarnos en mejorar la mecánica de combate, introducir recompensas atractivas, desarrollar la narrativa y aumentar la interactividad del jugador, podemos llevar nuestro juego a nuevas alturas.
+
+El desarrollo futuro debe ser guiado por una combinación de la visión del juego y el feedback de los jugadores y compañeros. Con una planificación cuidadosa y la implementación de nuevas características, podemos crear una experiencia de juego más rica y cautivadora. 
+
