@@ -1,17 +1,25 @@
 package main;
 
-import java.util.Scanner;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * La clase JuegoPanel representa el panel del juego donde se muestra la interfaz gráfica.
+ * Controla la representación visual del jugador y los enemigos, así como las actualizaciones
+ * periódicas del juego.
+ */
 public class JuegoPanel extends JPanel {
 
     private Personaje jugador;
     private Enemigo enemigoActual;
 
+    /**
+     * Constructor que inicializa el panel del juego.
+     *
+     * @param jugador El personaje del jugador que se mostrará en el panel.
+     */
     public JuegoPanel(Personaje jugador) {
         this.jugador = jugador;
         this.enemigoActual = generarEnemigoAleatorio();
@@ -36,6 +44,11 @@ public class JuegoPanel extends JPanel {
         timer.start();
     }
 
+    /**
+     * Genera un enemigo aleatorio.
+     *
+     * @return Un enemigo con tipo y nivel aleatorios.
+     */
     private Enemigo generarEnemigoAleatorio() {
         // Lógica para generar un enemigo aleatorio
         // Puedes personalizar esto según tus necesidades
@@ -46,6 +59,11 @@ public class JuegoPanel extends JPanel {
         return new Enemigo(tiposEnemigos[indiceTipoEnemigo], nivelEnemigo);
     }
 
+    /**
+     * Método sobrescrito que se llama automáticamente para pintar componentes en el panel.
+     *
+     * @param g El contexto gráfico utilizado para dibujar.
+     */
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);

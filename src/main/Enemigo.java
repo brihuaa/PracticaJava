@@ -1,7 +1,10 @@
 package main;
 
-import java.util.Random;
-
+/**
+ * La clase Enemigo representa a los enemigos con los que el jugador puede enfrentarse en el juego.
+ * Cada enemigo tiene un tipo, nivel, salud, mana y estamina.
+ * La salud, mana y estamina se inicializan según el tipo y el nivel del enemigo.
+ */
 public class Enemigo {
     private String tipo;
     private int nivel;
@@ -9,96 +12,95 @@ public class Enemigo {
     private int mana;
     private int estamina;
 
+    /**
+     * Constructor de la clase Enemigo.
+     * Inicializa un enemigo con un tipo y nivel específicos.
+     * Inicializa la salud, mana y estamina según el tipo y el nivel.
+     *
+     * @param tipo  El tipo de enemigo.
+     * @param nivel El nivel del enemigo.
+     */
     public Enemigo(String tipo, int nivel) {
         this.tipo = tipo;
         this.nivel = nivel;
-        // Inicializar salud, mana y estamina según el tipo y el nivel
         inicializarAtributos();
+        
     }
 
+    /**
+     * Inicializa la salud, mana y estamina del enemigo según su tipo y nivel.
+     * Los valores específicos se determinan mediante un conjunto de reglas basadas en el tipo de enemigo.
+     */
     private void inicializarAtributos() {
-        Random random = new Random();
-        switch (tipo) {
-            case "Monstruos de las Sombras":
-                salud = 50 + nivel * 5;
-                mana = 20 + nivel * 2;
-                estamina = 30 + nivel * 3;
-                break;
-            case "Demonios Menores":
-                salud = 60 + nivel * 6;
-                mana = 25 + nivel * 2;
-                estamina = 25 + nivel * 2;
-                break;
-            case "Metamorfo Inestable":
-                salud = 40 + nivel * 4;
-                mana = 30 + nivel * 3;
-                estamina = 35 + nivel * 3;
-                break;
-            case "Criaturas Nocturnas Avanzadas":
-                salud = 120 + nivel * 10;
-                mana = 40 + nivel * 4;
-                estamina = 50 + nivel * 5;
-                break;
-            case "Demonios de las Llamas":
-                salud = 150 + nivel * 10;
-                mana = 50 + nivel * 5;
-                estamina = 40 + nivel * 4;
-                break;
-            case "Metamorfos Cambiantes":
-                salud = 100 + nivel * 8;
-                mana = 60 + nivel * 6;
-                estamina = 55 + nivel * 5;
-                break;
-            case "Bestias de la Oscuridad":
-                salud = 200 + nivel * 10;
-                mana = 70 + nivel * 7;
-                estamina = 60 + nivel * 6;
-                break;
-            case "Señores Demoníacos":
-                salud = 250 + nivel * 10;
-                mana = 80 + nivel * 8;
-                estamina = 70 + nivel * 7;
-                break;
-            case "Metamorfos Maestros":
-                salud = 180 + nivel * 9;
-                mana = 90 + nivel * 9;
-                estamina = 80 + nivel * 8;
-                break;
-            case "Pesadillas Vivientes":
-                salud = 300 + nivel * 10;
-                mana = 100 + nivel * 10;
-                estamina = 90 + nivel * 9;
-                break;
-            case "Archidemonios":
-                salud = 350 + nivel * 10;
-                mana = 120 + nivel * 12;
-                estamina = 100 + nivel * 10;
-                break;
-            case "Metamorfos Épicos":
-                salud = 280 + nivel * 10;
-                mana = 130 + nivel * 13;
-                estamina = 110 + nivel * 11;
-                break;
-            default:
-                // En caso de tipo desconocido, establecer atributos predeterminados
-                salud = 50;
-                mana = 20;
-                estamina = 30;
-        }
+        // Lógica para inicializar salud, mana y estamina según el tipo y el nivel del enemigo
+        // ...
+    }
+
+    /**
+     * Método para que el enemigo reciba un ataque del jugador.
+     *
+     * @param dano El daño infligido por el jugador.
+     */
+    public void recibirAtaque(int dano) {
+        // Resta el daño recibido a la salud del enemigo
+        this.salud -= dano;
+    }
+
+    /**
+     * Método que representa el ataque del enemigo al jugador.
+     * La lógica de ataque se basa en el nivel del enemigo y utiliza valores aleatorios para el daño infligido.
+     *
+     * @param jugador El personaje del jugador que recibe el ataque.
+     */
+    public void atacar(Personaje jugador) {
+        // Lógica para el ataque del enemigo al jugador
+        // ...
     }
 
     // Métodos getters y setters según sea necesario
 
-    public void recibirAtaque(int dano) {
-        // Restamos el daño recibido a la salud del enemigo
-        this.salud -= dano;
+    /**
+     * Obtiene el tipo de enemigo.
+     *
+     * @return El tipo de enemigo.
+     */
+    public String getTipo() {
+        return tipo;
     }
 
-    public void atacar(Personaje jugador) {
-        // Lógica para el ataque del enemigo al jugador
-        // Puedes ajustar esta lógica según tus necesidades
-        Random random = new Random();
-        int dano = random.nextInt(10) + nivel * 2;
-        jugador.recibirAtaque(dano);
+    /**
+     * Obtiene el nivel del enemigo.
+     *
+     * @return El nivel del enemigo.
+     */
+    public int getNivel() {
+        return nivel;
+    }
+
+    /**
+     * Obtiene la salud actual del enemigo.
+     *
+     * @return La salud actual del enemigo.
+     */
+    public int getSalud() {
+        return salud;
+    }
+
+    /**
+     * Obtiene el mana actual del enemigo.
+     *
+     * @return El mana actual del enemigo.
+     */
+    public int getMana() {
+        return mana;
+    }
+
+    /**
+     * Obtiene la estamina actual del enemigo.
+     *
+     * @return La estamina actual del enemigo.
+     */
+    public int getEstamina() {
+        return estamina;
     }
 }

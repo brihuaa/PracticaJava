@@ -2,8 +2,18 @@ package main;
 
 import java.util.Scanner;
 
+/**
+ * La clase Juego representa la lógica principal del juego. Permite a los jugadores
+ * seleccionar una raza al inicio, crea un personaje con la raza elegida y muestra
+ * la información del jugador antes de continuar con la lógica del juego.
+ */
 public class Juego {
 
+    /**
+     * Punto de entrada principal del juego.
+     *
+     * @param args Argumentos de la línea de comandos (no utilizados en este caso).
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -31,6 +41,12 @@ public class Juego {
         // Ahora puedes continuar con la lógica del juego, como enfrentarse a enemigos, etc.
     }
 
+    /**
+     * Crea un personaje con la raza seleccionada por el jugador.
+     *
+     * @param opcion La opción de raza seleccionada por el jugador.
+     * @return El personaje creado con la raza elegida.
+     */
     private static Personaje crearPersonaje(int opcion) {
         Raza razaElegida;
         switch (opcion) {
