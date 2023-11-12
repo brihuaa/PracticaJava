@@ -4,7 +4,7 @@ El juego que estamos desarrollando hasta ahora es un  arcade que combina la elec
 
 <h1>Desarrollo Actual</h1>
 
-![PracticaProgramacion](https://github.com/brihuaa/PracticaJava/assets/123450151/51cabb9f-cd51-42ca-8b9f-54b369219ae4)
+![PracticaProgramacion](https://github.com/AdrianComputerScience/PracticaJava/assets/123450151/51cabb9f-cd51-42ca-8b9f-54b369219ae4)
 
 
 <h2>Clases Principales</h2>
