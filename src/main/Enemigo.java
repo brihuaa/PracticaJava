@@ -1,7 +1,6 @@
 package main;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Enemigo {
     private String tipo;
@@ -89,26 +88,6 @@ public class Enemigo {
     }
 
     // Métodos getters y setters según sea necesario
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public int getNivel() {
-        return nivel;
-    }
-
-    public int getSalud() {
-        return salud;
-    }
-
-    public int getMana() {
-        return mana;
-    }
-
-    public int getEstamina() {
-        return estamina;
-    }
 
     public void recibirAtaque(int dano) {
         // Restamos el daño recibido a la salud del enemigo
