@@ -27,7 +27,7 @@ public class Personaje {
         this.vida -= dano;
     }
 
-    public void atacar(Personaje enemigo) {
+    public void atacar( Enemigo enemigo) {
         // Lógica para el ataque del personaje
         // Puedes ajustar esta lógica según tus necesidades
         Random random = new Random();
@@ -48,6 +48,11 @@ public class Personaje {
     public int getMana() {
         return mana;
     }
+    
+    public int getNivel() {
+        return nivel;
+    }
+
 
     public int getEstamina() {
         return estamina;
