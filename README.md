@@ -48,15 +48,7 @@ Cada raza influye directamente en las estadísticas del jugador, personalizando 
 | Archidemonios                  | 350 + nivel * 10   | 120 + nivel * 12| 100 + nivel * 10 | Dinámico |
 | Metamorfos Épicos              | 280 + nivel * 10   | 130 + nivel * 13| 110 + nivel * 11 | Dinámico |
 
-## Futuro Desarrollo
-
-### Mejoras en el Combate
-
-Exploraremos la posibilidad de introducir habilidades especiales para cada raza, añadiendo capas estratégicas y variedad al combate. Además, contemplamos la implementación de un sistema de niveles avanzado con habilidades desbloqueables a medida que los jugadores avanzan.
-
-### Sistema de Recompensas
-
-Planeamos implementar un sistema de recompensas más robusto, incluyendo ítems específicos de raza que los jugadores pueden adquirir al derrotar enemigos. También consideramos la introducción de misiones secundarias y eventos especiales para obtener recompensas significativas.
+![Juego](https://github.com/brihuaa/PracticaJava/assets/113451860/5cb4dd16-7b1c-44fe-a20d-ca9f87e3ce62)
 
 ### Historia y Mundo del Juego
 
