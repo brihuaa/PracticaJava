@@ -33,6 +33,12 @@ public class JuegoInterfaz extends JFrame {
         setVisible(true);
     }
 
+    
+    /** 
+     * @param path
+     * @param description
+     * @return ImageIcon
+     */
     private ImageIcon createImageIcon(String path, String description) {
         URL imgUrl = getClass().getResource(path);
         if (imgUrl != null) {
@@ -43,9 +49,14 @@ public class JuegoInterfaz extends JFrame {
         }
     }
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new JuegoInterfaz());
     }
 
 }
+
 
