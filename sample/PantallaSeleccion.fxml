@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" style="-fx-background-color: #747474;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPantallaSeleccion">
+   <columnConstraints>
+      <ColumnConstraints minWidth="160.0" />
+      <ColumnConstraints minWidth="160.0" />
+      <ColumnConstraints minWidth="160.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="200.0" minHeight="150.0" />
+      <RowConstraints minHeight="150.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" />
+   </rowConstraints>
+   <children>
+      <ImageView fx:id="imagen" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirPsyduck" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+          <image>
+            <Image url="@../img/psyduck.png" />
+          </image>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fx:id="imagen2" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirMeowth" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+          <image>
+              <Image url="@../img/meowth.png" />
+          </image>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fx:id="imagen3" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirSnorlax" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+          <image>
+              <Image url="@../img/snorlax.png" />
+          </image>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fx:id="imagen4" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirBulbasaur" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../img/bullbasaur.png" />
+         </image>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin></ImageView>
+      <ImageView fx:id="imagen5" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirPikachu" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../img/pikachu.png" />
+         </image>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin></ImageView>
+      <ImageView fx:id="imagen6" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirRattata" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../img/rattata.png" />
+         </image>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin></ImageView>
+      <Button fx:id="boton" mnemonicParsing="false" onAction="#onButtonAbrirClicked" text="Salir" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets bottom="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <Label fx:id="nombre" text="Label" textFill="WHITE" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="nivel" text="Label" textFill="WHITE" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets right="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <ProgressBar fx:id="pb" prefWidth="120.0" progress="1.0" GridPane.halignment="RIGHT">
+         <GridPane.margin>
+            <Insets right="10.0" top="80.0" />
+         </GridPane.margin></ProgressBar>
+      <Label text="PS" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9815789461135864" green="0.6475694179534912" blue="0.027266081422567368" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.9295869469642639" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="vida" text="Label" textFill="WHITE" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="20.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gen" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" right="15.0" />
+         </GridPane.margin>
+         <effect>
+            <Blend mode="DARKEN" />
+         </effect>
+      </ImageView>
+      <Label fx:id="nombre2" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nivel2" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets right="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombre3" text="Label" textFill="WHITE" GridPane.columnIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nivel3" text="Label" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="10.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <ProgressBar fx:id="pb2" prefWidth="120.0" progress="1.0" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+         <GridPane.margin>
+            <Insets right="10.0" top="80.0" />
+         </GridPane.margin>
+      </ProgressBar>
+      <ProgressBar fx:id="pb3" prefWidth="120.0" progress="1.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
+         <GridPane.margin>
+            <Insets right="10.0" top="80.0" />
+         </GridPane.margin>
+      </ProgressBar>
+      <Label text="PS" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </GridPane.margin>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9800000190734863" green="0.5486686825752258" blue="0.029400000348687172" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007633587786259542">
+                     <color>
+                        <Color red="0.9800000190734863" green="0.5486686825752258" blue="0.029400000348687172" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9510984420776367" green="0.9800000190734863" blue="0.029400000348687172" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="vida2" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="20.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label text="PS" GridPane.columnIndex="2">
+         <GridPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </GridPane.margin>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9800000190734863" green="0.4500473141670227" blue="0.029400000348687172" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.9295869469642639" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="vida3" text="Label" textFill="WHITE" GridPane.columnIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="20.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gen2" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" right="15.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fx:id="gen3" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" right="15.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label fx:id="nivel4" text="Label" textFill="WHITE" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets right="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombre4" text="Label" textFill="WHITE" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombre5" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nivel5" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets right="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombre6" text="Label" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nivel6" text="Label" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets right="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="pb4" prefWidth="120.0" progress="1.0" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="10.0" top="80.0" />
+         </GridPane.margin>
+      </ProgressBar>
+      <Label text="PS" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9815789461135864" green="0.6475694179534912" blue="0.027266081422567368" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.940932035446167" green="0.9710526466369629" blue="0.36864036321640015" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="vida4" text="Label" textFill="WHITE" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="20.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="pb5" prefWidth="120.0" progress="1.0" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="10.0" top="80.0" />
+         </GridPane.margin>
+      </ProgressBar>
+      <ProgressBar fx:id="pb6" prefWidth="120.0" progress="1.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="10.0" top="80.0" />
+         </GridPane.margin>
+      </ProgressBar>
+      <Label fx:id="vida5" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="20.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="PS" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9815789461135864" green="0.6475694179534912" blue="0.027266081422567368" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.940932035446167" green="0.9710526466369629" blue="0.36864036321640015" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label text="PS" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9815789461135864" green="0.6475694179534912" blue="0.027266081422567368" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.940932035446167" green="0.9710526466369629" blue="0.36864036321640015" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <GridPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="vida6" text="Label" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="20.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gen4" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" right="15.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fx:id="gen5" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" right="15.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fx:id="gen6" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" right="15.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label fx:id="mensaje" text="Label" textFill="WHITE" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="10.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="botonGraficos" mnemonicParsing="false" onMouseClicked="#clickBotonGraficos" text="Estadisticas" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+   </children>
+</GridPane>
