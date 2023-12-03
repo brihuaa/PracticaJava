@@ -78,7 +78,6 @@ Una vez que el jugador ha seleccionado su raza, se enfrentará a un enemigo en b
 ## Visualizacion del Juego
 
 ## Seleccion de Raza
-![seleccion](https://github.com/brihuaa/PracticaJava/assets/123450151/99ec7f28-41e9-4c19-8586-49e9205f471a) 
 
 ## Ganado el Juego
 ![ganar](https://github.com/brihuaa/PracticaJava/assets/123450151/b3f9d5e6-ef03-48de-9162-fa481f71d469)
