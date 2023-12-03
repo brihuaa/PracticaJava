@@ -20,44 +20,20 @@ Ahora los jugadores pueden elegir entre seis fascinantes razas: Humanos, Elfos, 
 *Gnomo*
 ![gnomo](https://github.com/brihuaa/PracticaJava/assets/123450151/d499d2cc-602e-483e-ae2b-b7b1a702d7c2)
 
-Vida: 100
-Ataque: 40
-Género: Masculino
-
 *Humano*
 ![humano](https://github.com/brihuaa/PracticaJava/assets/123450151/56d88385-9c06-4f9c-9802-baff74ab8563)
-
-Vida: 80
-Ataque: 35
-Género: Femenino
 
 *Enano*
 ![enano](https://github.com/brihuaa/PracticaJava/assets/123450151/3dc28d95-99e6-41d8-b5a0-c287a49df4a5)
 
-Vida: 350
-Ataque: 70
-Género: Masculino
-
 *Hada*
 ![hada](https://github.com/brihuaa/PracticaJava/assets/123450151/9d73e17e-7e7f-4061-9e8b-a043434eccf5)
-
-Vida: 105
-Ataque: 50
-Género: Masculino
 
 *Orco*
 ![orco](https://github.com/brihuaa/PracticaJava/assets/123450151/1bc67f9f-f421-48e7-ac47-af1a758b2b53)
 
-Vida: 95
-Ataque: 42
-Género: Masculino
-
 *Elfo*
 ![elfo](https://github.com/brihuaa/PracticaJava/assets/123450151/55bf3ae3-024e-47ed-ba76-03abda1bccde)
-
-Vida: 87
-Ataque: 38
-Género: Femenino
 
 *Enemigo*
 
