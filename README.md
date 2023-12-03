@@ -19,7 +19,7 @@ Ahora los jugadores pueden elegir entre seis fascinantes razas: Humanos, Elfos, 
 
 ### Razas Disponibles
 
-Gnomo
+<Gnomo>
 
 Vida: 100
 Ataque: 40
