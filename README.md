@@ -1,8 +1,6 @@
 # Juego de Batalla de Razas
 
 
-![PracticaProgramacion](https://github.com/AdrianComputerScience/PracticaJava/assets/123450151/51cabb9f-cd51-42ca-8b9f-54b369219ae4)
-
 ## Introducción
 
 ¡Bienvenido al Juego de Batalla de Razas! Este es un emocionante juego de combate por turnos donde los jugadores pueden seleccionar entre seis razas únicas y enfrentarse a un formidable enemigo. La estrategia y la toma de decisiones serán clave para salir victorioso en este mundo lleno de desafíos y criaturas fascinantes.
