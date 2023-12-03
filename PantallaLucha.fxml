@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="idLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #747474;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPantallaLucha">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="300.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="270.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="idNombre" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="15.0" top="30.0" />
+         </GridPane.margin></Label>
+      <ImageView fx:id="idImagenRival" fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+         <image>
+            <Image url="@../img/dratini.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="idNombreRival" text="Label" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+         <padding>
+            <Insets top="30.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="idGeneroRival" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="70.0" top="32.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label fx:id="idNivelRival" text="Label" textFill="WHITE" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="30.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="idImagen" fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="20.0" />
+         </GridPane.margin></ImageView>
+      <ImageView fx:id="idGenero" fitHeight="30.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="85.0" top="30.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ProgressBar fx:id="idPbRival" prefWidth="100.0" progress="1.0" GridPane.halignment="RIGHT" />
+      <Label fx:id="idPSRival" onMouseEntered="#mostrarVidaRival" onMouseExited="#mostrarPSRival" text="PS" GridPane.halignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9605262875556946" green="0.5478854179382324" blue="0.1618664711713791" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9824073910713196" green="1.0" blue="0.4722222089767456" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <GridPane.margin>
+            <Insets left="75.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="idNivel" text="Label" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="40.0" top="30.0" />
+         </GridPane.margin>
+      </Label>
+      <ProgressBar fx:id="idPb" prefWidth="100.0" progress="1.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="20.0" />
+         </GridPane.margin>
+      </ProgressBar>
+      <Label fx:id="idPS" onMouseEntered="#mostrarVida" onMouseExited="#mostrarPS" text="PS" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9605262875556946" green="0.5478854179382324" blue="0.1618664711713791" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9824073910713196" green="1.0" blue="0.4722222089767456" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <GridPane.margin>
+            <Insets left="55.0" />
+         </GridPane.margin>
+      </Label>
+      <Button fx:id="atacar" mnemonicParsing="false" onMouseClicked="#botonAtacar" text="ATACAR" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets top="30.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="curar" mnemonicParsing="false" onMouseClicked="#botonCurar" text="CURARSE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="idAtaque1" mnemonicParsing="false" onMouseClicked="#ataqueSeguro" text="SEGURO" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="60.0" top="20.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="idAtaque2" mnemonicParsing="false" onMouseClicked="#ataqueArriesgado" text="ARRIESGADO" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="30.0" top="20.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="idCancelar" mnemonicParsing="false" onMouseClicked="#cancelar" text="CANCELAR" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="45.0" top="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="idAtaque3" mnemonicParsing="false" onMouseClicked="#ataqueMuyArriesgado" text="MUY ARRIESGADO" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" top="40.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</GridPane>
