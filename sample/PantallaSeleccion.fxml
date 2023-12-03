@@ -20,47 +20,47 @@
       <RowConstraints maxHeight="25.0" minHeight="25.0" />
    </rowConstraints>
    <children>
-      <ImageView fx:id="imagen" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirPsyduck" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+      <ImageView fx:id="imagen" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirGnomo" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
           <image>
-            <Image url="@../img/psyduck.png" />
+            <Image url="@../img/gnomo.png" />
           </image>
          <GridPane.margin>
             <Insets bottom="30.0" />
          </GridPane.margin>
       </ImageView>
-      <ImageView fx:id="imagen2" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirMeowth" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+      <ImageView fx:id="imagen2" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirHumano" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
           <image>
-              <Image url="@../img/meowth.png" />
+              <Image url="@../img/humano.png" />
           </image>
          <GridPane.margin>
             <Insets bottom="30.0" />
          </GridPane.margin>
       </ImageView>
-      <ImageView fx:id="imagen3" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirSnorlax" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+      <ImageView fx:id="imagen3" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirEnano" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
           <image>
-              <Image url="@../img/snorlax.png" />
+              <Image url="@../img/enano.png" />
           </image>
          <GridPane.margin>
             <Insets bottom="30.0" />
          </GridPane.margin>
       </ImageView>
-      <ImageView fx:id="imagen4" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirBulbasaur" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <ImageView fx:id="imagen4" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirHada" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <image>
-            <Image url="@../img/bullbasaur.png" />
+            <Image url="@../img/hada.png" />
          </image>
          <GridPane.margin>
             <Insets bottom="30.0" />
          </GridPane.margin></ImageView>
-      <ImageView fx:id="imagen5" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirPikachu" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <ImageView fx:id="imagen5" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirOrco" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <image>
-            <Image url="@../img/pikachu.png" />
+            <Image url="@../img/orco.png" />
          </image>
          <GridPane.margin>
             <Insets bottom="30.0" />
          </GridPane.margin></ImageView>
-      <ImageView fx:id="imagen6" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirRattata" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <ImageView fx:id="imagen6" fitHeight="80.0" fitWidth="100.0" onMouseClicked="#elegirElfo" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <image>
-            <Image url="@../img/rattata.png" />
+            <Image url="@../img/elfo.png" />
          </image>
          <GridPane.margin>
             <Insets bottom="30.0" />
