@@ -60,6 +60,7 @@ Ataque: 38
 Género: Femenino
 
 *Enemigo*
+
 ![enemy](https://github.com/brihuaa/PracticaJava/assets/123450151/0058f259-1147-471a-99ef-9b29d864e311)
 
 ## Mecánicas del Juego
