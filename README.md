@@ -63,3 +63,6 @@ Al iniciar el juego, los jugadores son recibidos con la pantalla de selección d
 ### Batallas por Turnos
 Una vez que el jugador ha seleccionado su raza, se enfrentará a un enemigo en batallas por turnos. Cada raza tiene un conjunto de habilidades únicas y un medidor de vida que disminuirá a medida que recibe daño. El objetivo es reducir la vida del enemigo a cero antes de que lo hagan contigo.
 
+## Visualizacion del Juego
+
+
