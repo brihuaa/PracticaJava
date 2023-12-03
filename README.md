@@ -48,7 +48,7 @@ Ataque: 42
 Género: Masculino
 
 *Elfo*
-
+img/elfo.png 
 Vida: 87
 Ataque: 38
 Género: Femenino
