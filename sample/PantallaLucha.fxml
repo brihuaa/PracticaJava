@@ -27,7 +27,7 @@
          </GridPane.margin></Label>
       <ImageView fx:id="idImagenRival" fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
          <image>
-            <Image url="@../img/dratini.png" />
+            <Image url="@../img/enemy.png" />
          </image>
       </ImageView>
       <Label fx:id="idNombreRival" text="Label" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="TOP">
@@ -138,7 +138,7 @@
             <Insets bottom="30.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="idAtaque1" mnemonicParsing="false" onMouseClicked="#ataqueSeguro" text="SEGURO" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+      <Button fx:id="idAtaque1" mnemonicParsing="false" onMouseClicked="#ataqueCuerpoACuerpo" text="MELE" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
@@ -146,7 +146,7 @@
             <Insets left="60.0" top="20.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="idAtaque2" mnemonicParsing="false" onMouseClicked="#ataqueArriesgado" text="ARRIESGADO" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+      <Button fx:id="idAtaque2" mnemonicParsing="false" onMouseClicked="#ataqueADistancia" text="A DISTANCIA" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
@@ -162,7 +162,7 @@
             <Insets left="45.0" top="40.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="idAtaque3" mnemonicParsing="false" onMouseClicked="#ataqueMuyArriesgado" text="MUY ARRIESGADO" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+      <Button fx:id="idAtaque3" mnemonicParsing="false" onMouseClicked="#ataqueDefinitivo" text="DEFINITIVO" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
          <GridPane.margin>
             <Insets left="5.0" top="40.0" />
          </GridPane.margin>
