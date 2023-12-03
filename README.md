@@ -9,7 +9,7 @@
 
 ## Descripción del Juego
 
-###Objetivo
+### Objetivo
 
 El objetivo principal del juego es derrotar al enemigo enfrentándote a él en una serie de batallas estratégicas. Cada raza tiene habilidades y características únicas que pueden influir en el resultado de la batalla. ¡Demuestra tu destreza táctica y lleva a tu raza a la victoria!
 
@@ -55,24 +55,11 @@ Vida: 87
 Ataque: 38
 Género: Femenino
 
-### Desarrollo de Personaje
+## Mecánicas del Juego
+### Pantalla de Selección
 
-Cada raza influye directamente en las estadísticas del jugador, personalizando la experiencia de juego. Las elecciones de los jugadores al elegir su raza afectan su capacidad para enfrentarse a enemigos y superar desafíos.
+Al iniciar el juego, los jugadores son recibidos con la pantalla de selección de personajes. Pueden elegir entre las seis razas, cada una con sus propias fortalezas y debilidades. Esta elección determinará el curso de las batallas por venir.
 
-
-![Juego](https://github.com/brihuaa/PracticaJava/assets/113451860/5cb4dd16-7b1c-44fe-a20d-ca9f87e3ce62)
-
-### Historia y Mundo del Juego
-
-Buscaremos expandir el juego incorporando una narrativa más profunda y desarrollando un mundo más completo. La introducción de una trama principal, personajes no jugadores (PNJ) y ubicaciones únicas podría sumergir a los jugadores en una experiencia más envolvente.
-
-### Interactividad del Jugador
-
-La inclusión de opciones de diálogo, toma de decisiones y eventos basados en elecciones permitirá que los jugadores influyan en el desarrollo de la historia y en sus destinos. Esto aumentará la rejugabilidad y la conexión emocional con el juego.
-
-# Conclusión
-
-Hasta ahora, hemos sentado las bases de un emocionante juego arcade. Sin embargo, el potencial de expansión y mejora es vasto. Al enfocarnos en mejorar la mecánica de combate, introducir recompensas atractivas, desarrollar la narrativa y aumentar la interactividad del jugador, podemos llevar nuestro juego a nuevas alturas.
-
-El desarrollo futuro debe ser guiado por una combinación de la visión del juego y el feedback de los jugadores y compañeros. Con una planificación cuidadosa y la implementación de nuevas características, podemos crear una experiencia de juego más rica y cautivadora. 
+### Batallas por Turnos
+Una vez que el jugador ha seleccionado su raza, se enfrentará a un enemigo en batallas por turnos. Cada raza tiene un conjunto de habilidades únicas y un medidor de vida que disminuirá a medida que recibe daño. El objetivo es reducir la vida del enemigo a cero antes de que lo hagan contigo.
 
