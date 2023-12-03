@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>resources/Fondo.png</name>
+			<type>1</type>
+			<location>C:/Users/Admin/Downloads/Fondo.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>
