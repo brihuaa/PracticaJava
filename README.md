@@ -19,37 +19,37 @@ Ahora los jugadores pueden elegir entre seis fascinantes razas: Humanos, Elfos, 
 
 ### Razas Disponibles
 
-<Gnomo>
+*Gnomo*
 
 Vida: 100
 Ataque: 40
 Género: Masculino
 
-Humano
+*Humano*
 
 Vida: 80
 Ataque: 35
 Género: Femenino
 
-Enano
+*Enano*
 
 Vida: 350
 Ataque: 70
 Género: Masculino
 
-Hada
+*Hada*
 
 Vida: 105
 Ataque: 50
 Género: Masculino
 
-Orco
+*Orco*
 
 Vida: 95
 Ataque: 42
 Género: Masculino
 
-Elfo
+*Elfo*
 
 Vida: 87
 Ataque: 38
